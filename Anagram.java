@@ -31,10 +31,10 @@ public class Anagram {
 	}
 
 	// main method
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		// array of two strings
-		String str1[] = { "abcd" };
-		String str2[] = { "dcba" };
+		String[] str1 = { "abcd" };
+		String[] str2 = { "dcba" };
 
 		if (checkAnagram(str1, str2))
 			System.out.println("The two strings are" + " anagram of each other");
